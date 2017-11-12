@@ -44,7 +44,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Login
 
-Learning with Lessons needs to track your profile in order to learn about you, so start by signing up or logging in using Github.
+Learning with Lessons needs to track your profile in order to learn about you, so start by signing up then signing in.
 
 Contact us if you have any questions!
 
