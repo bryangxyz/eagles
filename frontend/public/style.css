@@ -1,0 +1,462 @@
+body {
+  background: white;
+}
+
+.lessonCreator, .slideCreator{
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 40px;
+}
+
+.index {
+  display: inline;
+}
+
+.thumbnail {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px;
+  border: 0px;
+}
+
+.slideNameInLessonSlideListEntry {
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+}
+
+.chatHide {
+  background-color: lightgrey;
+  height: 30px;
+  width: 250px;
+  position: fixed;
+  right: 50px;
+  bottom: 0;
+  text-align: center;
+}
+
+.chatHide:hover {
+  text-decoration: underline;
+}
+
+.chat {
+  background-color: grey;
+  height: 330px;
+  width: 250px;
+  position: fixed;
+  right: 50px;
+  bottom: 0;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.chat.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.chatHead {
+  text-align: center;
+}
+
+.chatHead:hover {
+  text-decoration: underline;
+}
+
+.displayChat {
+  height: 260px;
+  margin-top: 20px;
+  margin: 6px;
+  background-color: white;
+  overflow: auto;
+}
+
+.chatLine {
+  line-height: .9;
+  margin-left: 12px;
+
+}
+
+.chatLine h5 {
+  margin-bottom: .1em;
+}
+
+.chatLine p {
+  margin-top: .1em;
+}
+
+.chatInput {
+  margin-left: 6px;
+  margin-right: 8px;
+  height: auto;
+  width: 180px;
+}
+
+.lessonRead {
+  float: right;
+}
+
+.twitter {
+  float: right;
+}
+
+.showGraph:hover {
+  text-decoration: underline;
+}
+
+.commentsMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 500px;
+}
+
+.commentsMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 500px;
+}
+.commentsMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.reply {
+  display: inline-block;
+}
+
+.articleSlide {
+  height: 500px;
+  width: 800px;
+  overflow: scroll !important;
+}
+
+.jumbo {
+  width: 100vw;
+  height: 50vw;
+}
+
+
+.loginButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.loginButtonEntry{
+  background: white;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.logo {
+  margin-bottom: 20px;
+  padding-right: 5px;
+}
+.title{
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  background: transparent;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.navbar > .container {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  padding: 40px 25px 50px 25px;
+}
+
+.navButton {
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.btn:focus, .btn:active{
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #f6aa16;
+}
+
+.navButton:focus, .navButton:active{
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #f6aa16;
+}
+
+.navButton:hover {
+  border-bottom: 2px solid #f6aa16;
+  background: transparent;
+}
+.centerThese{
+  display:flex;
+  justify-content: space-around;
+}
+
+.formWidth {
+  max-width: 300px;
+}
+
+.formWidth:focus, .formWidth:active {
+  outline: none !important;
+  border: 0.5px solid #f6aa16 !important;
+  box-shadow: 0 2px 3px 0 rgba(246, 170, 22, .3), 0 2px 3px 0 rgba(246, 170, 22, .4);
+}
+
+.form-group{
+  display: flex;
+  justify-content: center;
+}
+.list-group-item {
+  border-radius: 0px !important;
+  padding: 20px;
+}
+.carousel-control.left {
+  display: none;
+}
+.carousel-control.right {
+  display: none;
+}
+
+.backgroundLogin {
+  top: 0px;
+  left: 0px;
+  height: 60vw;
+  width: 100vw;
+  background: url("https://static.pexels.com/photos/336407/pexels-photo-336407.jpeg");
+  background-size: 100% 100%;
+}
+
+.background {
+  top: 0px;
+  left: 0px;
+  height: 50vw;
+  width: 100vw;
+  background: url("https://static.pexels.com/photos/301943/pexels-photo-301943.jpeg");
+  background-size: 100% 100%;
+}
+
+.background2 {
+  top: 0px;
+  left: 0px;
+  height: 50vw;
+  width: 100vw;
+  background: url("https://images.pexels.com/photos/207665/pexels-photo-207665.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-size: 100% 100%;
+}
+
+.background3 {
+  top: 0px;
+  left: 0px;
+  height: 50vw;
+  width: 100vw;
+  background: url("https://images.pexels.com/photos/515168/pexels-photo-515168.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-size: 100% 100%;
+}
+
+.background4 {
+  top: 0px;
+  left: 0px;
+  height: 50vw;
+  width: 100vw;
+  background: url("https://images.pexels.com/photos/373488/pexels-photo-373488.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-size: 100% 100%;
+}
+
+.captions1 {
+  max-height: 400px;
+  max-width: 400px;
+  top: 40%;
+  left: 20px;
+}
+
+.captions2 {
+  max-height: 400px;
+  max-width: 400px;
+  top: 35%;
+  left: 35%;
+}
+.captions3 {
+  max-height: 400px;
+  max-width: 400px;
+  top: 60%;
+  left: 35%;
+}
+.captions4 {
+  max-height: 400px;
+  max-width: 400px;
+  top: 55%;
+  left: 33%;
+}
+.carousel-indicators {
+  display: none;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginBox {
+  background: white;
+  padding: 10px 0px 10px 0px;
+  margin-top: 50px;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  box-shadow: 0 4px 15px 0 rgba(246, 170, 22, .3), 0 4px 7px 0 rgba(246, 170, 22, .4);
+  position: absolute;
+  z-index: 200;
+}
+
+.loginBack {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  position: relative;
+}
+
+.browseTitle {
+  margin-top: -15px;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.browseLessons {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+  background: rgba(246, 170, 22, 1);
+  height: 300px;
+}
+
+.LessonPreviewContainer {
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.stdButton {
+  background: white;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lessonInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lessonMakerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoPlayer {
+  margin: 20px;
+}
+
+.videoSearcher {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.searchBar {
+  z-index: 999;
+      display: flex;
+    justify-content: center;
+}
+
+.suggestionsBar {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  border: 1px solid grey;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.btn-primary {
+  background: grey;
+  border: none;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background: rgba(246, 170, 22, 1);
+  border: none;
+}
+
+.creationListGroup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px !important;
+}
+.creationListHead{
+
+  display: flex;
+  justify-content: center;
+}
+
+.list-group-item {
+  text-align: : center;
+  /*font-size: 20px;
+  font-weight: bold;*/
+}
+.slideCreationForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sideNotes > h4{
+  margin-left: 20px; 
+}
+
+.lesson {
+  border-bottom: 1px black solid;
+}
+
+.lessonSlideList{
+  margin: 25px;
+}

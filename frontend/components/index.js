@@ -1,8 +1,7 @@
-class Car {
-  manufacturer(car) {
-    document.write(`I have a ${car}`)
-  }
-}
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import RouterWrapper from './RouterWrapper';
 
-const bmw = new Car;
-bmw.manufacturer('bmw');
+ReactDOM.render((
+<RouterWrapper />
+), document.getElementById('App'));
